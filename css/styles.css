@@ -6,28 +6,31 @@ h1{
     text-align: center;
     font-size: 250%;
 }
+
 header nav ul li{
 display: inline-block;
 margin: 30px;
 color: hsl(30, 86%, 34%);
 }
-header nav ul li a{color: hsl(30, 86%, 34%);
+
+header nav ul li a
+{   color: hsl(30, 86%, 34%);
     text-decoration: none;
-    font-size: 30px;}
+    font-size: 30px;
+}
 
 
 footer{
     background-color: black;
-text-align: center;
-padding: 2px;
-
-
+    text-align: center;
+    padding: 2px;
 }
 .cars{
     display: inline-block;
     margin-bottom: 20px;
 }
 footer p{
+
     color: blanchedalmond;
     font-size: 10px;
 
