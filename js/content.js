@@ -5,7 +5,7 @@ var moneys = prompt("how many money do you have");
 
 if (moneys > 10000) {
     car = "I advise you to buy Mercedes";   
-} else if (moneys < 10000 && money > 5000) {
+} else if (moneys < 10000 && moneys > 5000) {
 
         car = "I advise you to buy Toyta"; 
 } 
