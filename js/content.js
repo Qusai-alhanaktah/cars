@@ -1,23 +1,22 @@
 //var today = new Date();
 //var hournow = today.getHours();
-/*
-var user = prompt("what is your user?")
+/*var user = prompt("what is your user?")
 var moneys = prompt("how many money do you have");
 
 if (moneys > 10000) {
     car = "I advise you to buy Mercedes";   
 } else if (moneys < 10000 && moneys > 5000) {
-
-        car = "I advise you to buy Toyta"; 
+    
+    car = "I advise you to buy Toyta"; 
 } 
-        else {
-            car = "I advise you to buy kia sevia 1";    
-              }
-
+else {
+    car = "I advise you to buy kia sevia 1";    
+}
 
 
 document .write('<h3>' + user + '</h3>'); 
 document .write('<h3>' + car + '</h3>'); 
+*/
 
 var showOrder = function(){
     var order = prompt("what do you want to order ?");
@@ -28,17 +27,18 @@ var showOrder = function(){
     var noOfOrder = prompt("how many orders do you want ?");
     for (var x = 0; x <noOfOrder; x = x + 1){
         if (order == 'toyota' || order == 'Toyota') {
-                item = '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP1W9Ch7kVNmrhbJcbWFBfTP4YmO7HTVa2o9Vo6Voor9sLaN7K&s" width=20% height=20% />'; 
-                
-            } else if (order == 'kia sevia1') {
-                item = '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/2nd-Kia-Sephia.jpg/280px-2nd-Kia-Sephia.jpg" width=20% height=20% />';      
-            } else if (order == 'mercedes') {
-                item = '<img src="https://www.topgear.com/sites/default/files/images/cars-road-test/2019/08/f7c8b3c3422aa676314bc4209a44b39c/large-33263-mercedes-amggtrpro.jpg" width=20% height=20% />';      
-            }
-            document.write('<p>' + item + '</p>');
+            item = '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP1W9Ch7kVNmrhbJcbWFBfTP4YmO7HTVa2o9Vo6Voor9sLaN7K&s" width=20% height=20% />'; 
+            
+        } else if (order == 'kia sevia1') {
+            item = '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/2nd-Kia-Sephia.jpg/280px-2nd-Kia-Sephia.jpg" width=20% height=20% />';      
+        } else if (order == 'mercedes') {
+            item = '<img src="https://www.topgear.com/sites/default/files/images/cars-road-test/2019/08/f7c8b3c3422aa676314bc4209a44b39c/large-33263-mercedes-amggtrpro.jpg" width=20% height=20% />';      
         }
-        
-    } */
+        document.write('<p>' + item + '</p>');
+    }
+    } 
+    showOrder()
+/*
     var user = prompt("what is your user?")
 var moneys = prompt("how many money do you have");
 
@@ -59,7 +59,7 @@ var moneys = prompt("how many money do you have");
     document .write('<h3>' + user + '</h3>');
     document .write('<h3>' + "you have to buy this car" + '</h3>');
 
-    document .write('<h3>' + car + '</h3>'); 
+    document .write('<h3>' + car + '</h3>');*/ 
 
 
 
